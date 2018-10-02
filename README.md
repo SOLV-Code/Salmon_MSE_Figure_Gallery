@@ -16,7 +16,7 @@
 ### Trajectories
 
 
-#### Percent Rank Transformation
+#### Four-panel trajectory plots
 
 * **Challenge**: Display simulated trajectories across scenarios. In scenarios where productivity or carrying capacity are altered, reference points change between scenarios.
 * **Approach**: Display results for each stock separately to avoid too busy of plots. 
