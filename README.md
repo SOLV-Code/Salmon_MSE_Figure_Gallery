@@ -12,6 +12,19 @@
 
 ## Gallery
 
+#### Percent Rank Transformation
+
+* **Challenge**: Display patterns in a group of populations that differ by several orders of magnitude (hundreds to millions of fish), both between populations and over time. Plotting the time series on a log scale is the typical approach, but it creates problems for visual interpretation, particularly with the mixed audiences in collaborative planning processes.
+* **Approach**: Transform the data into percent ranks, which rescale the smallest observation as 0, the largest observation as 1, and the median as 0.5. This puts all time series on the same vertical axis and gives the values a more direct interpretation. The examples below illustrate these benefits for visual communication, but the question remains whether percent ranks are mathematically appropriate transformations for this type of data. 
+
+
+<p float="left">
+
+<img src="https://github.com/SOLV-Code/Graph-Gallery/blob/master/SOLV/PercentRanks/PercRank_FinalPlots.png" width="250" height="250"> 
+
+<img src="https://github.com/SOLV-Code/Graph-Gallery/blob/master/SOLV/PercentRanks/PercRank_ProgressionInSparklines.png" width="250" height="250">
+
+</p>
 
 ### Trajectories
 
