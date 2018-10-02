@@ -26,9 +26,6 @@
 
 </p>
 
-### Trajectories
-
-
 #### Four-panel trajectory plots
 
 * **Challenge**: Display simulated trajectories across scenarios. In scenarios where productivity or carrying capacity are altered, reference points change between scenarios.
