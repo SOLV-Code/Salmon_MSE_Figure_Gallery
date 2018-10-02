@@ -20,9 +20,9 @@
 
 <p float="left">
 
-<img src="https://github.com/SOLV-Code/Graph-Gallery/blob/master/SOLV/PercentRanks/PercRank_FinalPlots.png" width="250" height="250"> 
+<img src="https://github.com/brookemdavis/Salmon_MSE_Figure_Gallery/blob/master/Salmon%20MSE/PercentRanks/PercRank_FinalPlots.png" width="250" height="250"> 
 
-<img src="https://github.com/SOLV-Code/Graph-Gallery/blob/master/SOLV/PercentRanks/PercRank_ProgressionInSparklines.png" width="250" height="250">
+<img src="https://github.com/brookemdavis/Salmon_MSE_Figure_Gallery/blob/master/Salmon%20MSE/PercentRanks/PercRank_ProgressionInSparklines.png" width="250" height="250">
 
 </p>
 
