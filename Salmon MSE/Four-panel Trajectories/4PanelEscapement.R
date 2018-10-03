@@ -1,8 +1,29 @@
-#*###########################################################
-#  Escape_4_Panel
-#######################################################
+###################
+#  Escape_4_Panel #
+#   Brooke Davis  #
+###################
+
+#====================================================================
 # Purpose: Plots escapement trajectories for the 2 OMs and 6 MPs
 # Trimmed down original function to just show example from one stock
+#=====================================================================
+
+# Data structure: We use a "Blob" as a catch-all data structure for each model Run ( a set 
+#  of simulations assuming a certain OM and MP scenario). Blob is not a built-in functions or
+#  a specific object type in R, it is just the name we have given.
+
+# Each Blob is simply a list where model options (Blob$Options), data (Blob$Data), and 
+#   simulation (Blob$Sims) outputs are stored
+
+# A blob is initalized for each run with a given set of options, these options are used to read 
+#  in appropriate data. This object is then fed to a main simulation function that takes the prescribed
+#  options and data, and run the sumulations. 
+
+# After each run (of a given number of sims) a Blob is saved as an RDS, these are the objects that 
+#  are seen in the DataIn folder
+
+# These blobs are then the easiest way to feed data into a plotting function, since they include all 
+#  model options, input data, and output simulations
 
 Mods2Plot_1 = c(1,2,3,4); Mods2Plot_2 = c(1,5,6); Mods2Plot_3 = c(7,8,9,10); Mods2Plot_4 = c(7,11,12)
 Smax  <- T
