@@ -25,8 +25,12 @@
 # These blobs are then the easiest way to feed data into a plotting function, since they include all 
 #  model options, input data, and output simulations
 
+Run <- "Expanded_Nat"
 Mods2Plot_1 = c(1,2,3,4); Mods2Plot_2 = c(1,5,6); Mods2Plot_3 = c(7,8,9,10); Mods2Plot_4 = c(7,11,12)
 Smax  <- T
+Plot_Spawners <- T
+Names <- readRDS(paste("DataIn/Scenario_Names_", Run, ".RDS", sep=""))
+Esc_LeadIn <- read.csv("DataIn/Escape_LeadIn.csv")
   
   # want to extract table of median change in escapment over 10 years (2016 to 2025) and 20 years (2016 to 2035)
   # also save all blobs
@@ -39,7 +43,7 @@ Smax  <- T
     if(Plot_Spawners==T){
       Spawners[[mm]] <- Blobs[[mm]]$Sims$Spawners
     }
-  }
+  } # end run loop
   
   cols <- c("#0000ff", "#b22222", "#006400", "#FF9937","#7F3DCC",  "#808080")
   #  Blue, Green, Red, Orange, Purple, grey
